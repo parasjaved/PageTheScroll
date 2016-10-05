@@ -25,7 +25,11 @@
                                     <constraint firstAttribute="height" constant="192" id="sOl-aX-2WN"/>
                                 </constraints>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X78-kZ-R0s"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X78-kZ-R0s">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="jRm-rg-gCP"/>
+                                </constraints>
+                            </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="ssv-DQ-ULz">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="115" id="2Tz-nI-cBd"/>
@@ -37,10 +41,9 @@
                         <constraints>
                             <constraint firstItem="HL6-91-HZi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2xf-5k-hrj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="X78-kZ-R0s" secondAttribute="bottom" id="806-DZ-v2g"/>
-                            <constraint firstItem="X78-kZ-R0s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8eN-Lw-lP1"/>
+                            <constraint firstItem="X78-kZ-R0s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MXf-ZK-Ppp"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HL6-91-HZi" secondAttribute="bottom" id="Ppv-TC-vPp"/>
                             <constraint firstAttribute="trailing" secondItem="1gW-dG-JsU" secondAttribute="trailing" id="Y5y-UX-ybj"/>
-                            <constraint firstAttribute="trailing" secondItem="X78-kZ-R0s" secondAttribute="trailing" id="ZDv-NX-xMB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1gW-dG-JsU" secondAttribute="bottom" id="afT-VJ-2C7"/>
                             <constraint firstItem="ssv-DQ-ULz" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hZn-lH-1eK"/>
                             <constraint firstAttribute="trailing" secondItem="HL6-91-HZi" secondAttribute="trailing" id="jRH-bA-cwm"/>
