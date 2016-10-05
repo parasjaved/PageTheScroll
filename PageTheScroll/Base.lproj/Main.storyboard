@@ -21,11 +21,13 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sky" translatesAutoresizingMaskIntoConstraints="NO" id="1gW-dG-JsU"/>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="HL6-91-HZi">
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="192" id="sOl-aX-2WN"/>
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X78-kZ-R0s">
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="jRm-rg-gCP"/>
                                 </constraints>
